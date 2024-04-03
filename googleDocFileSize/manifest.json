@@ -1,0 +1,19 @@
+{
+   "background": {
+      "scripts": [ "/src/background.js" ]
+   },
+   "browser_action": {
+   },
+   "description": "Check the size of the current google doc if it were to be converted to docx",
+   "icons": {
+      "128": "/src/icon128.png",
+      "16": "/src/icon16.png",
+      "48": "/src/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApjuJR317E6gMiWM67gIwVv+1fNVIh8mDa5FbYyHBtYkL7govpOz2G7O57daXtE/j2LyzxORV47hjXsKdEf+afHgZF4xEdoNzCGbhWuk7ca5KH7sZtOvDAlzfjs+AZZmUJQm18deFHLfUjGDqDEy7BTivo8ZIAvrW7bBoI4L7utcP2nXnWMWC3O2pLdWg2q8PScb59G8OsErYtLgBd+QFHiWmIaHW86a74Swv+bA24+w6K7WwQoTTojNhhncxQpiBBLBudGl15yXhRAezvRSLGP9pVTgfo73l30hBktjTkqJyTe49tEtru4k/ucgiItemGRVVXlqf63iUoc38YVC3hQIDAQAB",
+   "manifest_version": 2,
+   "name": "Google Doc File Size",
+   "permissions": [ "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.1"
+}

@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <link href="/src/stylesheets/popup.css" rel="stylesheet" type="text/css" />
+
+    <script src="popup.js"></script>
+  </head>
+
+  <body style="height: 160px;">
+    <div class="container" style="display: flex; flex-direction: column; justify-content: center;">
+     <h2 id="title">Bulk Select</h2>
+
+     <br/><br/>
+
+     <div>
+
+       <label>To select all:</label>
+       <select id="selectFrom">
+          <option style="color:lightgray" id="firstOption" value="default3421">choose an option to mass select</option>
+       </select>
+     </div>
+     <br/>
+     <button id="actionBtn" style="color: grey; border: grey;">Select all that are avaliable again</button>
+
+     <h3 style="color: green; text-align: center;" id="response"></h3>
+    </div>
+  </body>
+</html>
